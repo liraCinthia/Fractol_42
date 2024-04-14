@@ -6,7 +6,7 @@
 /*   By: clira-ne <clira-ne@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 17:26:34 by clira-ne          #+#    #+#             */
-/*   Updated: 2024/04/14 09:54:02 by clira-ne         ###   ########.fr       */
+/*   Updated: 2024/04/14 10:07:35 by clira-ne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <stdlib.h>
 # include <X11/X.h>
 # include "../libraries/libft/libft.h"
-# include "../sources/printf/ft_printf.h"
 # include "../libraries/minilibx-linux/mlx.h"
 
 # define WIDTH 700

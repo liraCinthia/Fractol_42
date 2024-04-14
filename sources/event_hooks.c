@@ -6,7 +6,7 @@
 /*   By: clira-ne <clira-ne@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 18:11:51 by clira-ne          #+#    #+#             */
-/*   Updated: 2024/04/14 09:55:09 by clira-ne         ###   ########.fr       */
+/*   Updated: 2024/04/14 10:08:18 by clira-ne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,9 @@ int	ft_key_escape(int key, t_data *img)
 
 int	ft_scroll_zoom(int key, int x, int y, t_data *img)
 {
-	if (key == M_UP)
+	if (key == SCROLL_UP)
 		img->g.zoom *= 0.94;
-	else if (key == M_DOWN)
+	else if (key == SCROLL_DOWN)
 		img->g.zoom *= 1.1;
 	img->mouse_x = x;
 	img->mouse_y = y;

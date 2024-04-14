@@ -6,7 +6,7 @@
 /*   By: clira-ne <clira-ne@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 17:51:47 by clira-ne          #+#    #+#             */
-/*   Updated: 2024/04/14 09:47:36 by clira-ne         ###   ########.fr       */
+/*   Updated: 2024/04/14 10:12:40 by clira-ne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ static	void	error_handler(int argc, char *argv[])
 	{
 		if (ft_strncmp(argv[1], "julia", 6) == 0)
 		{
-			ft_putstr_fd("Julia needs two arguments. \
-				Ex: ./fractol julia <number real> <number imaginary>\n", 1);
+			ft_putstr_fd("Julia needs two arguments.", 1);
+			ft_putstr_fd("Ex: ./fractol julia <n real> <n imaginary>\n", 1);
 			ft_putstr_fd("That is: ./fractol julia -0.835 -0.2321\n", 1);
 			exit(EXIT_FAILURE);
 		}
