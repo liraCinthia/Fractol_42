@@ -6,7 +6,7 @@
 /*   By: clira-ne <clira-ne@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 17:58:39 by clira-ne          #+#    #+#             */
-/*   Updated: 2024/04/12 21:55:19 by clira-ne         ###   ########.fr       */
+/*   Updated: 2024/04/14 09:59:41 by clira-ne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_config_env(t_data *img)
 		exit(0);
 	}
 	img->mlx_win = mlx_new_window(img->mlx, \
-		WIDTH, HEIGHT, "Ao infinito e alem :)");
+		WIDTH, HEIGHT, "to infinity and beyond :)");
 	img->type = img->argv[1][0];
 	img->g.infinity = 100;
 	if (img->type == 'j')
@@ -41,6 +41,8 @@ int	ft_config_env(t_data *img)
 
 void	ft_exec_window(t_data *img)
 {
+	mlx_hook(img->mlx_win, DestroyNotify, \
+		StructureNotifyMask, ft_close_win, img);
 	mlx_mouse_hook(img->mlx_win, ft_scroll_zoom, img);
 	mlx_key_hook(img->mlx_win, ft_key_escape, img);
 	mlx_loop(img->mlx);

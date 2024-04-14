@@ -6,11 +6,20 @@
 /*   By: clira-ne <clira-ne@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 18:11:51 by clira-ne          #+#    #+#             */
-/*   Updated: 2024/04/12 18:09:21 by clira-ne         ###   ########.fr       */
+/*   Updated: 2024/04/14 09:55:09 by clira-ne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/fractol.h"
+
+int	ft_close_win(t_data *img)
+{
+	mlx_destroy_image(img->mlx, img->img);
+	mlx_destroy_window(img->mlx, img->mlx_win);
+	mlx_destroy_display(img->mlx);
+	free(img->mlx);
+	exit(EXIT_SUCCESS);
+}
 
 int	ft_key_escape(int key, t_data *img)
 {
