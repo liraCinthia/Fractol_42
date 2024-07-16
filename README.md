@@ -1,4 +1,4 @@
-Fract'ol Project
+**Fract'ol Project**
 
 ![image](https://github.com/user-attachments/assets/97395862-500e-49c0-8341-91c4bed08ce7)
 
