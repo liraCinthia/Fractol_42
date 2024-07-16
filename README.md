@@ -2,6 +2,11 @@
 
 ![image](https://github.com/user-attachments/assets/97395862-500e-49c0-8341-91c4bed08ce7)
 
+![mandelbrot](https://github.com/user-attachments/assets/bce48945-0c20-4307-9171-999e2327e800)
+
+![fractol_julia](https://github.com/user-attachments/assets/47d2ac57-8cd1-4f30-b5ff-bbff269f0077)
+
+
 Project developed at school 42 São Paulo.
 Fractal computer graphics. This project is about creating graphically beautiful fractals.
 
