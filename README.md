@@ -11,6 +11,9 @@ Several natural phenomena - such as romanesco cabbage - have some fractal charac
 In this project we used the school's graphics library: MiniLibX!
 This library was developed in-house and includes the basic tools needed to open a window, create images and handle keyboard and mouse events. With this project we worked on the mathematical notion of complex numbers, the concept of optimization in computer graphics and practiced handling events.
 
+Part of the bonus | Implementations to be made:
+moving the graph with the arrow keys, zooming in with the mouse scroll and the color of the graph being considered beautiful or changing. In the case of my project, the color was considered beautiful.
+
 ____
 
 Projeto desenvolvido na escola 42 São Paulo.
@@ -21,3 +24,6 @@ Vários fenómenos naturais - como a couve romanesca - têm algumas característ
 
 Neste projeto utilizamos a biblioteca gráfica da escola: a MiniLibX!
 Esta biblioteca foi desenvolvida internamente e inclui as ferramentas básicas necessárias para abrir uma janela, criar imagens e lidar com eventos do teclado e do mouse. Com esse projeto trabalhamos a noção matemática de números complexos, o conceito de otimização em computação gráfica e a praticar o tratamento de eventos.
+
+Parte do bônus | Implementações a serem feitas:
+movimentar o gráfico com as setas do teclado, dar zoom com o scroll do mouse e a cor do gráfico ser considerada linda ou haver mudança. No caso do meu projeto, a cor foi considerada linda.
