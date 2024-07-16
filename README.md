@@ -14,6 +14,26 @@ This library was developed in-house and includes the basic tools needed to open 
 Part of the bonus | Implementations to be made:
 moving the graph with the arrow keys, zooming in with the mouse scroll on a specific part and the color of the graph being considered beautiful or changing. In the case of my project, the color was considered beautiful.
 
+To compile the program with:
+```
+git clone git@github.com:liraCinthia/Fractol_42.git
+```
+```
+make
+```
+Run the compiled program:
+Fractol Mandelbrot
+```
+./fractol mandelbrot
+```
+Fractol Julia
+```
+./fractol julia <number real> <number imaginary>
+```
+Example:
+```
+./fractol julia -0.835 -0.2321
+```
 ____
 
 Projeto desenvolvido na escola 42 São Paulo.
@@ -27,3 +47,24 @@ Esta biblioteca foi desenvolvida internamente e inclui as ferramentas básicas n
 
 Parte do bônus | Implementações a serem feitas:
 movimentar o gráfico com as setas do teclado, dar zoom com o scroll do mouse em uma parte específica e a cor do gráfico ser considerada linda ou haver mudança. No caso do meu projeto, a cor foi considerada linda.
+
+Para compilar o programa:
+```
+git clone git@github.com:liraCinthia/Fractol_42.git
+```
+```
+make
+```
+Execute o programa compilado:
+Fractol Mandelbrot
+```
+./fractol mandelbrot
+```
+Fractol Julia
+```
+./fractol julia <number real> <number imaginary>
+```
+Exemplo:
+```
+./fractol julia -0.835 -0.2321
+```
